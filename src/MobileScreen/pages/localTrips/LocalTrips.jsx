@@ -73,7 +73,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                             </div>
                             <div className="col">
                                 <div className="col max-w-[70%] flex gap-2 border-2 border-blue rounded-md py- px-3 relative">
-                                    <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
+                                    <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
                                     <Autocomplete
                                         label=""
                                         defaultItems={cityListing}
@@ -163,7 +163,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                     <p className='text-[15px] font-bold font-Outfit'>Vehicle type</p>
                                                     <span>-</span>
                                                     <p className='text-[14px] font-semibold font-Outfit'>SUV</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                                 <div className="flex gap-1.5 items-center">
                                                     <p className='text-[15px] font-light font-Outfit'>Ertiga</p>
@@ -247,7 +247,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                     <p className='text-[15px] font-bold font-Outfit'>Vehicle type</p>
                                                     <span>-</span>
                                                     <p className='text-[14px] font-semibold font-Outfit'>SUV</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                                 <div className="flex gap-1.5 items-center">
                                                     <p className='text-[15px] font-light font-Outfit'>Ertiga</p>
@@ -331,7 +331,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                     <p className='text-[15px] font-bold font-Outfit'>Vehicle type</p>
                                                     <span>-</span>
                                                     <p className='text-[14px] font-semibold font-Outfit'>SUV</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                                 <div className="flex gap-1.5 items-center">
                                                     <p className='text-[15px] font-light font-Outfit'>Ertiga</p>
@@ -425,7 +425,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                     <p className='text-[15px] font-bold font-Outfit'>Vehicle type</p>
                                                     <span>-</span>
                                                     <p className='text-[14px] font-semibold font-Outfit'>SUV</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                                 <div className="flex gap-1.5 items-center">
                                                     <p className='text-[15px] font-light font-Outfit'>Ertiga</p>
@@ -509,7 +509,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                     <p className='text-[15px] font-bold font-Outfit'>Vehicle type</p>
                                                     <span>-</span>
                                                     <p className='text-[14px] font-semibold font-Outfit'>SUV</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                                 <div className="flex gap-1.5 items-center">
                                                     <p className='text-[15px] font-light font-Outfit'>Ertiga</p>
@@ -593,7 +593,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                     <p className='text-[15px] font-bold font-Outfit'>Vehicle type</p>
                                                     <span>-</span>
                                                     <p className='text-[14px] font-semibold font-Outfit'>SUV</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                                 <div className="flex gap-1.5 items-center">
                                                     <p className='text-[15px] font-light font-Outfit'>Ertiga</p>
@@ -622,7 +622,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
 
                             <div className="col">
                                 <div className="col max-w-[70%] flex gap-2 border-2 border-blue rounded-md py- px-3 relative">
-                                    <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
+                                    <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
                                     <Autocomplete
                                         label=""
                                         defaultItems={cityListing}
@@ -698,7 +698,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                                 <div className="flex items-center gap-1">
                                                     <p className='text-[14px] font-semibold font-Outfit'>Pickup point -</p>
                                                     <p className='text-[14px] font-medium font-Poppins tx-'>{item.pickDropVehicle[2].vehicleType}</p>
-                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/suv.png" alt="" />
+                                                    <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/suv.png" alt="" />
                                                 </div>
                                             </div>
                                             <div className='flex flex-col justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black w-[20%]'>
@@ -752,7 +752,7 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                             </div>
                             <div className="col px-3">
                                 <div className="col max-w-[70%] flex gap-2 border-2 border-blue rounded-md py- px-3 relative">
-                                    <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
+                                    <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
                                     <Autocomplete
                                         label=""
                                         defaultItems={cityListing}
@@ -853,22 +853,22 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                 <div className="">
                                     <div className="px-4 pt-4 pb-3">
                                         <div className="col border-2 flex items-center px-3 border-org rounded-lg overflow-hidden">
-                                            <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../public/IMG/e-sign.png" alt="" />
+                                            <img className='w-[clamp(35px,35px,35px)] object-contain' src="../../../IMG/e-sign.png" alt="" />
                                             <input className='col w-100 py-[14px] px-3 !text-black' placeholder='Local Rental 08Hrs/80Kms' type="text" />
                                         </div>
                                         <div className="flex gap-2 mt-3">
                                             <div className="col border-2 flex items-center border-org rounded-lg overflow-hidden py-2">
-                                                <img className='w-[clamp(25px,25px,25px)] mx-2 object-contain' src="../../../public/IMG/city-locate.png" alt="" />
+                                                <img className='w-[clamp(25px,25px,25px)] mx-2 object-contain' src="../../../IMG/city-locate.png" alt="" />
                                                 {/* <input className='col w-100 py-[14px] !text-black' placeholder='Local Rental 08Hrs/80Kms' type="text" /> */}
                                                 <p>AMD</p>
                                             </div>
                                             <div className="col border-2 flex items-center border-org rounded-lg overflow-hidden py-2">
-                                                <img className='w-[clamp(25px,25px,25px)] mx-2 object-contain' src="../../../public/IMG/timer.png" alt="" />
+                                                <img className='w-[clamp(25px,25px,25px)] mx-2 object-contain' src="../../../IMG/timer.png" alt="" />
                                                 {/* <input className='col w-100 py-[14px] !text-black' placeholder='Local Rental 08Hrs/80Kms' type="text" /> */}
                                                 <p>08:00 Hrs</p>
                                             </div>
                                             <div className="col border-2 flex items-center border-org rounded-lg overflow-hidden py-2">
-                                                <img className='w-[clamp(25px,25px,25px)] mx-2 object-contain' src="../../../public/IMG/Kelometrs.png" alt="" />
+                                                <img className='w-[clamp(25px,25px,25px)] mx-2 object-contain' src="../../../IMG/Kelometrs.png" alt="" />
                                                 {/* <input className='col w-100 py-[14px] !text-black' placeholder='Local Rental 08Hrs/80Kms' type="text" /> */}
                                                 <p>80.00 Km</p>
                                             </div>
@@ -908,10 +908,10 @@ export default function LocalTrips({ setAddPakagesModal, addPakagesModal }) {
                                     </div>
                                     <div className="flex w-100 border-t-2 border-org">
                                         <div className="col flex justify-center py-1 pointer border-e-2 border-org">
-                                            <img className="max-w-[35px] object-contain" src="../../../public/IMG/close.png" alt="" />
+                                            <img className="max-w-[35px] object-contain" src="../../../IMG/close.png" alt="" />
                                         </div>
                                         <div className="col flex justify-center py-1 pointer">
-                                            <img className="max-w-[27px]  object-contain" src="../../../public/IMG/done.png" alt="" />
+                                            <img className="max-w-[27px]  object-contain" src="../../../IMG/done.png" alt="" />
                                         </div>
                                     </div>
                                 </div>

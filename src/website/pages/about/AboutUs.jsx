@@ -13,14 +13,14 @@ export default function AboutUs() {
                         <p>We offer the best car rental service for the tourists who wish to make their holidays comfortable and unforgettable. We always make the effort to bring much more satisfaction, our clients plan out. You will get well maintained (brand new) cars and polite and responsible drivers with excellent communication skills to make your experience pleasant and smooth.</p>
                         <p>YBGO Car rental provides you with the best road trip experience. We offer hourly, daily, weekly, and monthly plans to fulfil your business travel needs, weekends getaway needs, and leisure travel needs.</p>
                         <p>YBGO Taxi and Car Rental Service Available in Major Cities of India</p>
-                        <p>Ahmedabad| Rajkot| Mumbai| Vadodara| Surat| Dwarka | 
-                            Somnath| Jamnagar| Bhavnagar| Morbi| Aurangabad| Daman | 
+                        <p>Ahmedabad| Rajkot| Mumbai| Vadodara| Surat| Dwarka |
+                            Somnath| Jamnagar| Bhavnagar| Morbi| Aurangabad| Daman |
                             Diu| vapi| Shirdi| coa| Nashik| Pune</p>
                         <p>Hire Taxi and Car Rental Service at an affordable price, through various cities of India.</p>
                     </div>
                 </div>
                 <div className="absolute bottom-0 end-0">
-                    <img className='w-[clamp(400px,400px,400px)]' src="../../../../public/IMG/about/Black&White_vector.png" alt="" />
+                    <img className='w-[clamp(400px,400px,400px)]' src="../../../../IMG/about/Black&White_vector.png" alt="" />
                 </div>
             </div>
         </>

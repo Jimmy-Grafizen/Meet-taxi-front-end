@@ -53,7 +53,7 @@ export default function VehicleMaster() {
 
 
                     <div className="col flex gap-2 border-2 border-blue rounded-md py- px-3 relative">
-                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
+                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
                         <Autocomplete
                             label=""
                             defaultItems={airportSelector}
@@ -218,7 +218,7 @@ export default function VehicleMaster() {
                                         </div>
                                         <div className='flex justify-strat text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[8%] max-w-[8%]'>
                                             <input className='text-[15px] min-w-[100%] max-w-[100%] border-b-[0px] border-blue font-medium font-Poppins tx-white bs-org' type="text" />
-                                        </div> 
+                                        </div>
                                         <div className='flex justify-strat text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[10%] max-w-[10%]'>
                                             <input className='text-[15px] min-w-[100%] max-w-[100%] border-b-[0px] border-blue font-medium font-Poppins tx-white bs-org' type="text" />
                                         </div>
@@ -239,25 +239,25 @@ export default function VehicleMaster() {
                                             </div>
                                             <div className='flex justify-strat text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[18%] max-w-[18%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.vehhiclename}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[6%] max-w-[6%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.seat}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[8%] max-w-[8%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.fueltype}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[8%] max-w-[8%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.ac}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[8%] max-w-[8%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.waterBottle}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[8%] max-w-[8%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.carrier}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black min-w-[10%] max-w-[10%]'>
                                                 <p className='text-[15px] font-medium font-Poppins tx-'>{item.uploadalt}</p>
-                                            </div> 
+                                            </div>
                                             <div className='flex gap-4 items-center justify-center text-center py-1.5 border-t-1 border-black px-3 min-w-[10%] max-w-[10%]'>
                                                 <i className="fa-solid fa-pen-to-square pointer"></i>
                                                 <i className="fa-solid fa-trash tx-red pointer"></i>

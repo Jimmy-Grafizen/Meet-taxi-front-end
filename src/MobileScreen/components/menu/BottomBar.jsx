@@ -6,11 +6,11 @@ export default function BottomBar() {
     const [activeTab, setActiveTab] = useState("")
 
     const datalist = [
-        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/airport", ico: "../../../public/IMG/BottomBar/home-black.png", icoActive: "../../../public/IMG/BottomBar/home-org.png", name: "Home" },
-        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../public/IMG/BottomBar/calender-black.png", icoActive: "../../../public/IMG/BottomBar/calender-org.png", name: "Booking" },
-        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../public/IMG/BottomBar/offer-black.png", icoActive: "../../../public/IMG/BottomBar/offer-org.png", name: "Offers" },
-        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../public/IMG/BottomBar/customer-black.png", icoActive: "../../../public/IMG/BottomBar/customer-org.png", name: "Help" },
-        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../public/IMG/BottomBar/user-black.png", icoActive: "../../../public/IMG/BottomBar/user-org.png", name: "Profile" },
+        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/airport", ico: "../../../IMG/BottomBar/home-black.png", icoActive: "../../../IMG/BottomBar/home-org.png", name: "Home" },
+        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../IMG/BottomBar/calender-black.png", icoActive: "../../../IMG/BottomBar/calender-org.png", name: "Booking" },
+        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../IMG/BottomBar/offer-black.png", icoActive: "../../../IMG/BottomBar/offer-org.png", name: "Offers" },
+        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../IMG/BottomBar/customer-black.png", icoActive: "../../../IMG/BottomBar/customer-org.png", name: "Help" },
+        { w: "w-[45px]", click: () => setmenuOverLap(true), redirection: "/local-trips", ico: "../../../IMG/BottomBar/user-black.png", icoActive: "../../../IMG/BottomBar/user-org.png", name: "Profile" },
     ]
 
 

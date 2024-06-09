@@ -55,7 +55,7 @@ export default function AdminLogin() {
         e.preventDefault();
         // if (logInData.username === 'admin' && logInData.password === 'password') {
         dispatch(loginAction(logInData));
-        
+
         // setLogInData({ email: '', password: '' });
     }
 
@@ -67,7 +67,7 @@ export default function AdminLogin() {
 
                         <div className="px-4 py-4 mt-1 flex flex-col gap-3">
                             <div className="col flex items-center border-2 border-org rounded-lg overflow-hidden px-3">
-                                <img className='min-w-[30px] max-w-[30px]' src="../../../public/IMG/user.png" alt="" />
+                                <img className='min-w-[30px] max-w-[30px]' src="../../../IMG/user.png" alt="" />
                                 <input className='col w-100 py-[14px] px-3' placeholder='Username or Email' type="text"
                                     name="email"
                                     onChange={(e) => handleChange(e)}
@@ -79,17 +79,17 @@ export default function AdminLogin() {
                                 )}
                             </div>
                             <div className="col flex items-center border-2 border-org rounded-lg overflow-hidden px-3">
-                                <img className='min-w-[30px] max-w-[30px]' src="../../../public/IMG/user-key.png" alt="" />
+                                <img className='min-w-[30px] max-w-[30px]' src="../../../IMG/user-key.png" alt="" />
                                 <input className='col w-100 py-[14px] px-3' placeholder='Password'
                                     type="password"
                                     name="password"
                                     onChange={(e) => handleChange(e)}
                                     value={logInData?.password} />
-                                    {(logInDataErr?.password !== '') && (
-                                <small className="block text-red-500 text-xs">
-                                    {logInDataErr.password}
-                                </small>
-                            )}
+                                {(logInDataErr?.password !== '') && (
+                                    <small className="block text-red-500 text-xs">
+                                        {logInDataErr.password}
+                                    </small>
+                                )}
                             </div>
                         </div>
                         {/* <div className="absolute top-[5px] end-[10px]">
@@ -100,10 +100,10 @@ export default function AdminLogin() {
                         </div> */}
 
                         {/* <Link to="/airport"> */}
-                            <div className="w-100 flex justify-center py-2.5 border-t-2 border-org"  onClick={(e)=>handleLogin(e)}>
-                                <img className="max-w-[27px]  object-contain" src="../../../public/IMG/done.png" alt="" />
-                            </div>
-                         {/* </Link>  */}
+                        <div className="w-100 flex justify-center py-2.5 border-t-2 border-org" onClick={(e) => handleLogin(e)}>
+                            <img className="max-w-[27px]  object-contain" src="../../../IMG/done.png" alt="" />
+                        </div>
+                        {/* </Link>  */}
                     </form>
                 </div>
                 <div className="w-100 min-h-[50vh] max-h-[50vh] col bs-blue scale-up-ver-top rounded-b-3xl relative z-20 flex justify-between shadow-md rounded-r-">

@@ -22,7 +22,7 @@ export default function HowItWorks() {
                             </div>
                             <div className="flex flex-col items-center justify-center w-[clamp(300px,300px,300px)] border-b-2 border-org rounded-3xl px-5 pb-1 bs-white relative z-40">
                                 <div className="w-[clamp(60px,60px,60px)] flex items-center justify-center">
-                                    <img className='w-[clamp(50px,50px,50px)]' src="../../../../public/IMG/how it work/search.png" alt="" />
+                                    <img className='w-[clamp(50px,50px,50px)]' src="../../../../IMG/how it work/search.png" alt="" />
                                 </div>
                                 <div className="text-center">
                                     <p className='text-[20px] font-bold font-Outfit '>Search Cab</p>
@@ -41,7 +41,7 @@ export default function HowItWorks() {
                             </div>
                             <div className="flex flex-col items-center justify-center w-[clamp(300px,300px,300px)] border-b-2 border-org rounded-3xl px-5 pb-1 bs-white relative z-40">
                                 <div className="w-[clamp(60px,60px,60px)] flex items-center justify-center">
-                                    <img className='w-[clamp(50px,50px,50px)]' src="../../../../public/IMG/how it work/select.png" alt="" />
+                                    <img className='w-[clamp(50px,50px,50px)]' src="../../../../IMG/how it work/select.png" alt="" />
                                 </div>
                                 <div className="text-center">
                                     <p className='text-[20px] font-bold font-Outfit '>Select Car</p>
@@ -60,7 +60,7 @@ export default function HowItWorks() {
                             </div>
                             <div className="flex flex-col items-center justify-center w-[clamp(300px,300px,300px)] border-b-2 border-org rounded-3xl px-5 pb-1 bs-white relative z-40">
                                 <div className="w-[clamp(60px,60px,60px)] flex items-center justify-center">
-                                    <img className='w-[clamp(50px,50px,50px)]' src="../../../../public/IMG/how it work/credit-card.png" alt="" />
+                                    <img className='w-[clamp(50px,50px,50px)]' src="../../../../IMG/how it work/credit-card.png" alt="" />
                                 </div>
                                 <div className="text-center">
                                     <p className='text-[20px] font-bold font-Outfit '>Book & Pay</p>
@@ -76,7 +76,7 @@ export default function HowItWorks() {
                     </div>
                     <div className="">
                         <div className="relative mt-5 z-50">
-                            <img className='w-[clamp(600px,600px,600px)]' src="../../../../public/IMG/how it work/Cab vector.png" alt="" />
+                            <img className='w-[clamp(600px,600px,600px)]' src="../../../../IMG/how it work/Cab vector.png" alt="" />
                         </div>
                     </div>
                 </div>

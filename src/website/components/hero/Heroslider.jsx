@@ -6,7 +6,7 @@ export default function Heroslider() {
         <>
             <div className="h-[100vh] flex items-center relative">
                 <div className="h-100 w-100 absolute top-0 left-0 opacity-90 border-b-2 border-org">
-                    <img className='w-100 h-100 object-fill' src="../../../../public/IMG/Slider-back-1.png" alt="" />
+                    <img className='w-100 h-100 object-fill' src="../../../../IMG/Slider-back-1.png" alt="" />
                 </div>
                 <div className="w-[75%] mx-auto flex items-center justify-between">
                     <div className="flex flex-col h-fit gap-4 bs-white relative z-[90] w-[clamp(500px,500px,500px)] rounded-xl py-[45px] px-4 shadow-2">
@@ -21,7 +21,7 @@ export default function Heroslider() {
                                 <p className='tx-white text-[14px] font-semibold font-Outfit '>Airport</p>
                             </div>
                         </div>
-                        <div className="w-100 flex gap-5 justify-center"> 
+                        <div className="w-100 flex gap-5 justify-center">
                             <div className="flex gap-2 items-center">
                                 <input className='accent-[#2565df] !border-0 scale-125 !outline-1' type="radio" id="OneWay" name="fav_language" value="OneWay" />
                                 <label className='text-[15px] opacity-75 font-bold font-Outfit' for="OneWay">One Way Trip</label>
@@ -62,7 +62,7 @@ export default function Heroslider() {
                     </div>
                     <div className=" relative z-[90] w-fit">
                         <div className="w-fit">
-                            <img className='w-[clamp(800px,800px,800px)] object-contain' src="../../../../public/IMG/hero-car.png" alt="" />
+                            <img className='w-[clamp(800px,800px,800px)] object-contain' src="../../../../IMG/hero-car.png" alt="" />
                         </div>
                     </div>
                 </div>

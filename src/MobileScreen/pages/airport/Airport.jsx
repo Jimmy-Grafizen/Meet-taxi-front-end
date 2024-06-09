@@ -11,9 +11,9 @@ export default function Airport() {
     const { isOpen, onOpen, onOpenChange } = useDisclosure();
     const [addAirportModal, setAddAirportModal] = useState(false);
     const [activeAirportBtn, setActiveAirportBtn] = useState("airport-list")
-    const [activeDestinationBtn, setActiveDestinationBtn] = useState("") 
-    const [activeDestinationList, setActiveDestinationList] = useState("") 
-    const { getAllAirport } = useSelector((state) => state?.airportState); 
+    const [activeDestinationBtn, setActiveDestinationBtn] = useState("")
+    const [activeDestinationList, setActiveDestinationList] = useState("")
+    const { getAllAirport } = useSelector((state) => state?.airportState);
     const [iterationCounter, setIterationCounter] = useState();
     const dispatch = useDispatch()
     const [selectAll, setSelectAll] = useState(false);
@@ -29,7 +29,7 @@ export default function Airport() {
         setValues(new Set(e.target.value.split(",")));
     };
 
-    const { getAllAirPort } = useSelector((state) => state?.airPortState); 
+    const { getAllAirPort } = useSelector((state) => state?.airPortState);
 
     const handleaddAirportModal = () => {
         setAddAirportModal(true)
@@ -64,7 +64,7 @@ export default function Airport() {
         setAddDestinationModal(false)
     }
 
-    const handleDeleteAirPortData = () =>{
+    const handleDeleteAirPortData = () => {
         debugger
         selectedRows?.forEach((item) => {
             dispatch(deleteAirPortAction(item?._id));
@@ -333,7 +333,7 @@ export default function Airport() {
 
 
                     <div className="col flex gap-2 border-2 border-blue rounded-md py- px-3 relative">
-                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
+                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
                         <Autocomplete
                             label=""
                             defaultItems={airportSelector}
@@ -614,10 +614,10 @@ export default function Airport() {
                                 </div>
                                 <div className="flex w-100 border-t-2 border-org">
                                     <div className="col flex justify-center py-1 border-e-2 border-org">
-                                        <img className="max-w-[35px] object-contain" src="../../../public/IMG/close.png" alt="" />
+                                        <img className="max-w-[35px] object-contain" src="../../../IMG/close.png" alt="" />
                                     </div>
                                     <div className="col flex justify-center py-1">
-                                        <img className="max-w-[27px]  object-contain" src="../../../public/IMG/done.png" alt="" />
+                                        <img className="max-w-[27px]  object-contain" src="../../../IMG/done.png" alt="" />
                                     </div>
                                 </div>
                             </ModalBody>
@@ -632,7 +632,7 @@ export default function Airport() {
                             <ModalBody className="py-0 px-0 p-0 gap-0">
                                 <div className="px-4 py-4">
                                     <div className="col flex gap-2 border-2 border-org rounded-md py- px-3 relative">
-                                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
+                                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
                                         <Autocomplete
                                             label=""
                                             defaultItems={airportSelector}
@@ -645,10 +645,10 @@ export default function Airport() {
                                 </div>
                                 <div className="flex w-100 border-t-2 border-org">
                                     <div onClick={""} className="col flex justify-center py-1 border-e-2 border-org">
-                                        <img className="max-w-[35px] object-contain" src="../../../public/IMG/close.png" alt="" />
+                                        <img className="max-w-[35px] object-contain" src="../../../IMG/close.png" alt="" />
                                     </div>
                                     <div onClick={""} className="col flex justify-center py-1">
-                                        <img className="max-w-[27px]  object-contain" src="../../../public/IMG/done.png" alt="" />
+                                        <img className="max-w-[27px]  object-contain" src="../../../IMG/done.png" alt="" />
                                     </div>
                                 </div>
                             </ModalBody>
@@ -667,7 +667,7 @@ export default function Airport() {
                                 <div className="px-4 py-4 mt-2">
                                     <div className="flex gap-2 mt-3">
                                         <div className="min-w-[120px] max-w-[120px]">
-                                            <img src="../../../public/IMG/dander-red.png" alt="" />
+                                            <img src="../../../IMG/dander-red.png" alt="" />
                                         </div>
                                         <div className="col flex flex-col text-[24px] font-Outfit opacity-70 items-center justify-center">
                                             <p>Are you sure,</p>
@@ -677,10 +677,10 @@ export default function Airport() {
                                 </div>
                                 <div className="flex w-100 border-t-2 border-org">
                                     <div onClick={closeDeleteAirportModal} className="col flex justify-center py-1 border-e-2 border-org pointer">
-                                        <img className="max-w-[35px] object-contain" src="../../../public/IMG/close.png" alt="" />
+                                        <img className="max-w-[35px] object-contain" src="../../../IMG/close.png" alt="" />
                                     </div>
                                     <div onClick={handleDeleteAirPortData} className="col flex justify-center py-1 pointer">
-                                        <img className="max-w-[27px]  object-contain" src="../../../public/IMG/done.png" alt="" />
+                                        <img className="max-w-[27px]  object-contain" src="../../../IMG/done.png" alt="" />
                                     </div>
                                 </div>
                             </ModalBody>
@@ -731,10 +731,10 @@ export default function Airport() {
                                 </div>
                                 <div className="flex w-100 border-t-2 border-org">
                                     <div className="col flex justify-center py-1 border-e-2 border-org">
-                                        <img className="max-w-[35px] object-contain" src="../../../public/IMG/close.png" alt="" />
+                                        <img className="max-w-[35px] object-contain" src="../../../IMG/close.png" alt="" />
                                     </div>
                                     <div className="col flex justify-center py-1">
-                                        <img className="max-w-[27px]  object-contain" src="../../../public/IMG/done.png" alt="" />
+                                        <img className="max-w-[27px]  object-contain" src="../../../IMG/done.png" alt="" />
                                     </div>
                                 </div>
                             </ModalBody>
