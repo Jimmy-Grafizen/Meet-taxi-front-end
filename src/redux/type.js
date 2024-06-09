@@ -1,0 +1,162 @@
+// Login
+export const IS_LOADING = "IS_LOADING";
+export const ADD_LOGIN_ERROR = "ADD_LOGIN_ERROR";
+export const ADD_LOGIN_LOADING = "ADD_LOGIN_LOADING";
+export const ADD_LOGIN_SUCCESS = "ADD_LOGIN_SUCCESS";
+export const GET_PROFILE_USER = "GET_PROFILE_USER";
+export const LOGOUT = "LOGOUT";
+export const UPDATE_PROFILE_USER = "UPDATE_PROFILE_USER";
+export const SIGNUP_DATA = "SIGNUP_DATA";
+export const GET_ALL_USERS_DATA = "GET_ALL_USERS_DATA";
+export const DELETE_PROFILE_USER = "DELETE_PROFILE_USER";
+export const GET_ALL_DEACTIVE_USERS_DATA = "GET_ALL_DEACTIVE_USERS_DATA";
+export const RECOVER_PROFILE_USER = "RECOVER_PROFILE_USER";
+export const RESET_GLOBAL_STATE = "RESET_GLOBAL_STATE";
+
+//Roles
+export const GET_ALL_ROLES = "GET_ALL_ROLES";
+export const ADD_ROLES = "ADD_ROLES";
+export const UPDATE_ROLES = "UPDATE_ROLES";
+export const DELETE_ROLES = "DELETE_ROLES";
+
+//CITY
+export const GET_ALL_CITY = "GET_ALL_CITY";
+export const ADD_CITY = "ADD_CITY";
+export const UPDATE_CITY = "UPDATE_CITY";
+export const DELETE_CITY = "DELETE_CITY";
+
+//SubCategory
+export const GET_ALL_SUBCATEGORY = "GET_ALL_SUBCATEGORY";
+export const ADD_SUBCATEGORY = "ADD_SUBCATEGORY";
+export const UPDATE_SUBCATEGORY = "UPDATE_SUBCATEGORY";
+export const DELETE_SUBCATEGORY = "DELETE_SUBCATEGORY";
+
+//Product Item
+export const GET_ALL_ITEM = "GET_ALL_ITEM";
+export const ADD_ITEM = "ADD_ITEM";
+export const UPDATE_ITEM = "UPDATE_ITEM";
+export const DELETE_ITEM = "DELETE_ITEM";
+
+//FAQ
+export const GET_ALL_FAQ = "GET_ALL_FAQ";
+export const ADD_FAQ = "ADD_FAQ";
+export const UPDATE_FAQ = "UPDATE_FAQ";
+export const DELETE_FAQ = "DELETE_FAQ";
+
+//Status
+export const GET_ALL_STATUS = "GET_ALL_STATUS";
+export const ADD_STATUS = "ADD_STATUS";
+export const UPDATE_STATUS = "UPDATE_STATUS";
+export const DELETE_STATUS = "DELETE_STATUS";
+
+//Coupon
+export const GET_ALL_COUPON = "GET_ALL_COUPON";
+export const GET_ACTIVE_COUPON = "GET_ACTIVE_COUPON";
+export const ADD_COUPON = "ADD_COUPON";
+export const UPDATE_COUPON = "UPDATE_COUPON";
+export const DELETE_COUPON = "DELETE_COUPON";
+
+//Order
+export const GET_ALL_ORDER = "GET_ALL_ORDER";
+export const ADD_ORDER = "ADD_ORDER";
+export const UPDATE_ORDER = "UPDATE_ORDER";
+export const DELETE_ORDER = "DELETE_ORDER";
+
+//NotiFication
+export const GET_ALL_NOTIFICATION = "GET_ALL_NOTIFICATION";
+
+//Brand
+export const GET_ALL_STATE = "GET_ALL_STATE";
+export const ADD_STATE = "ADD_STATE";
+export const UPDATE_STATE = "UPDATE_STATE";
+export const DELETE_STATE = "DELETE_STATE";
+
+//Unit
+export const GET_ALL_UNIT = "GET_ALL_UNIT";
+export const ADD_UNIT = "ADD_UNIT";
+export const UPDATE_UNIT = "UPDATE_UNIT";
+export const DELETE_UNIT = "DELETE_UNIT";
+
+//AirPort
+export const ADD_AIRPORT = "ADD_AIRPORT";
+export const UPDATE_AIRPORT = "UPDATE_AIRPORT";
+export const DELETE_AIRPORT = "DELETE_AIRPORT";
+export const GET_ALL_AIRPORT = " GET_ALL_AIRPORT";
+
+//TAX
+export const ADD_TAX = "ADD_TAX";
+export const UPDATE_TAX = "UPDATE_TAX";
+export const DELETE_TAX = "DELETE_TAX";
+export const GET_ALL_TAX = " GET_ALL_TAX";
+
+//Local Hourly
+export const ADD_LOCAL_HOURLY = "ADD_LOCAL_HOURLY";
+export const UPDATE_LOCAL_HOURLY = "UPDATE_LOCAL_HOURLY";
+export const DELETE_LOCAL_HOURLY = "DELETE_LOCAL_HOURLY";
+export const GET_ALL_LOCAL_HOURLY = "GET_ALL_LOCAL_HOURLY";
+
+//TRIP
+export const GET_ALL_TRIP = "GET_ALL_TRIP";
+export const UPDATE_TRIP = "UPDATE_TRIP";
+export const DELETE_TRIP = "DELETE_TRIP";
+export const ADD_TRIP = "ADD_TRIP";
+
+//Review
+export const GET_ALL_REVIEW = "GET_ALL_REVIEW";
+export const ADD_REVIEW = "ADD_REVIEW";
+export const UPDATE_REVIEW = "UPDATE_REVIEW";
+export const APPROVE_REVIEW = "APPROVE_REVIEW";
+export const DELETE_REVIEW = "DELETE_REVIEW";
+
+// Store
+export const ADD_STORE = "ADD_STORE";
+export const UPDATE_STORE = "UPDATE_STORE";
+export const DELETE_STORE = "DELETE_STORE";
+export const GET_ALL_STORE = "GET_ALL_STORE";
+export const RECOVER_STORE = "RECOVER_STORE";
+
+//Module
+export const ADD_MODULE = "ADD_MODULE";
+export const UPDATE_MODULE = "UPDATE_MODULE";
+export const DELETE_MODULE = "DELETE_MODULE";
+export const GET_ALL_MODULE = "GET_ALL_MODULE";
+export const DEACTIVATED_MODULE = "DEACTIVATED_MODULE";
+
+// UserRolePermission
+export const ADD_USERROLEPERMISSION = "ADD_USERROLEPERMISSION";
+export const GET_ALL_USERROLEPERMISSION = "GET_ALL_USERROLEPERMISSION";
+export const UPDATE_USERROLEPERMISSION = "UPDATE_USERROLEPERMISSION";
+
+//UploadImage
+export const IMAGE_UPLOAD = "IMAGE_UPLOAD";
+export const MULTIPLE_UPLOAD_IMAGES = "MULTIPLE_UPLOAD_IMAGES";
+
+// Destination
+export const ADD_DESTINATION = "ADD_DESTINATION";
+export const UPDATE_DESTINATION = "UPDATE_DESTINATION";
+export const DELETE_DESTINATION = "DELETE_DESTINATION";
+export const GET_ALL_DESTINATION = "GET_ALL_DESTINATION";
+
+//Banner 
+export const GET_ALL_HERO_BANNER = "GET_ALL_HERO_BANNER";
+export const ADD_HERO_BANNER = "ADD_HERO_BANNER";
+export const UPDATE_HERO_BANNER = "UPDATE_HERO_BANNER";
+export const DELETE_HERO_BANNER = "DELETE_HERO_BANNER";
+
+//Offer Banner
+export const GET_ALL_OFFER_BANNER = "GET_ALL_OFFER_BANNER";
+export const ADD_OFFER_BANNER = "ADD_OFFER_BANNER";
+export const UPDATE_OFFER_BANNER = "UPDATE_OFFER_BANNER";
+export const DELETE_OFFER_BANNER = "DELETE_OFFER_BANNER";
+
+//LiveText
+export const GET_LIVE_TEXT = "GET_LIVE_TEXT";
+export const ADD_LIVE_TEXT = "ADD_LIVE_TEXT";
+export const UPDATE_LIVE_TEXT = "UPDATE_LIVE_TEXT";
+export const DELETE_LIVE_TEXT = "DELETE_LIVE_TEXT";
+
+//Referal Code
+export const GET_ALL_REFERAL_CODE = "GET_ALL_REFERAL_CODE";
+export const ADD_REFERAL_CODE = "ADD_REFERAL_CODE";
+export const UPDATE_REFERAL_CODE = "UPDATE_REFERAL_CODE";
+export const DELETE_REFERAL_CODE = "DELETE_REFERAL_CODE";
