@@ -10,9 +10,9 @@ export default function Topbar({ activeMainTab, setActiveMainTab, menuOverLap, s
     }
 
     const datalist = [
-        { w: "w-[90px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../IMG/sidebar/airport-black.png", icoActive: "../../../IMG/sidebar/airport-white.png", name: "Airport/Local" },
-        { w: "w-[90px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../IMG/sidebar/outstation-black.png", icoActive: "../../../IMG/sidebar/outstation-white.png", name: "Out station" },
-        { w: "w-[90px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../IMG/sidebar/hourly-black.png", icoActive: "../../../IMG/sidebar/hourly-white.png", name: "Hourly Rental" },
+        { w: "w-[90px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../public/IMG/sidebar/airport-black.png", icoActive: "../../../public/IMG/sidebar/airport-white.png", name: "Airport/Local" },
+        { w: "w-[90px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../public/IMG/sidebar/outstation-black.png", icoActive: "../../../public/IMG/sidebar/outstation-white.png", name: "Out station" },
+        { w: "w-[90px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../public/IMG/sidebar/hourly-black.png", icoActive: "../../../public/IMG/sidebar/hourly-white.png", name: "Hourly Rental" },
     ]
 
 

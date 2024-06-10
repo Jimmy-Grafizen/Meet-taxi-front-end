@@ -1,6 +1,6 @@
 import { Autocomplete, AutocompleteItem } from '@nextui-org/react'
 import React, { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux' 
 import { deleteStateAction, getAllStateAction } from '../../../../redux/actions/state'
 import { deleteCategoryAction, getAllCityAction } from '../../../../redux/actions/city'
 
@@ -159,7 +159,7 @@ export default function LocationMaster() {
                     </div>
 
                     <div className="col flex gap-2 border-2 border-blue rounded-md py- px-3 relative">
-                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../IMG/loupe.svg" alt="" />
+                        <img className='w-[clamp(20px,20px,20px)] ' src="../../../public/IMG/loupe.svg" alt="" />
                         <Autocomplete
                             label=""
                             defaultItems={airportSelector}
@@ -232,8 +232,8 @@ export default function LocationMaster() {
                                             <p className="text-[15px] font-semibold tx-white bs-org w-[90%] font-Outfit rounded-md">Submit</p>
                                         </div>
                                     </div>
-                                    {getAllState?.length > 0 && getAllState.map((item, index) => {
-                                        console.log("itemitem", item)
+                                    {getAllState?.length > 0 && getAllState.map((item,index) => {
+                                        console.log("itemitem",item)
                                         return (
                                             <div className='flex justify-between'>
                                                 <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black w-[4%]'>
@@ -265,7 +265,7 @@ export default function LocationMaster() {
                                                 </div>
                                                 <div className='flex gap-3 items-center justify-center text-center text-[16px] py-1.5 border-t-1 border-black px-3 w-[10%]'>
                                                     <i className="fa-solid fa-pen-to-square pointer"></i>
-                                                    <i className="fa-solid fa-trash tx-red pointer" onClick={() => handleDeleteStateData()}></i>
+                                                    <i className="fa-solid fa-trash tx-red pointer" onClick={() =>handleDeleteStateData()}></i>
                                                 </div>
                                             </div>
                                         )
@@ -282,7 +282,7 @@ export default function LocationMaster() {
                                 <div className='flex w-100 sticky top-0 start-0 bs-blue border-black'>
                                     <div className='flex justify-center text-center py-2 border-r-1 border-black px-3 w-[4%]'>
                                         <input type="checkbox"
-                                            id="check-all"
+                                        id="check-all"
                                             checked={selectAllCity}
                                             onChange={handleSelectAllCity} />
                                     </div>
@@ -335,15 +335,15 @@ export default function LocationMaster() {
                                             <p className="text-[15px] font-semibold tx-white bs-org w-[90%] font-Outfit rounded-md">Submit</p>
                                         </div>
                                     </div>
-                                    {getAllCity?.length > 0 && getAllCity.map((item, index) => (
+                                    {getAllCity?.length > 0 &&  getAllCity.map((item,index) => (
                                         <div className='flex justify-between'>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black w-[4%]'>
                                                 <input type="checkbox"
-                                                    id={item?._id}
-                                                    checked={selectedCityRows.includes(item)}
-                                                    onChange={(e) =>
-                                                        handleCitySelect(e, item)
-                                                    } />
+                                                  id={item?._id}
+                                                        checked={selectedCityRows.includes(item)}
+                                                        onChange={(e) =>
+                                                            handleCitySelect(e, item)
+                                                        } />
                                             </div>
                                             <div className='flex justify-center text-center px-3 border-r-1 py-1.5 border-t-1 border-black w-[6%]'>
                                                 <p className='w-fit text-[15px] font-bold font-Poppins tx-'>{index}</p>
@@ -372,7 +372,7 @@ export default function LocationMaster() {
                                             </div>
                                             <div className='flex gap-3 items-center justify-center text-center text-[16px] py-1.5 border-t-1 border-black px-3 w-[10%]'>
                                                 <i className="fa-solid fa-pen-to-square pointer"></i>
-                                                <i className="fa-solid fa-trash tx-red pointer" onClick={() => handleDeleteStateDataCity()}></i>
+                                                <i className="fa-solid fa-trash tx-red pointer" onClick={() =>handleDeleteStateDataCity()}></i>
                                             </div>
                                         </div>
                                     ))}

@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Information() {
     const dummydata = [
-        { id: "1", name: "HATCHBACK", kmPrice: "₹9/Km", ac: "AC", seat: "4+1", price: "₹599", ico: "../../../../IMG/info/hatchback.png" },
-        { id: "2", name: "SEDAN", kmPrice: "₹11/Km", ac: "AC", seat: "5+1", price: "₹659", ico: "../../../../IMG/info/sedan.png" },
-        { id: "3", name: "SUV", kmPrice: "₹14/Km", ac: "AC", seat: "6+1", price: "₹710", ico: "../../../../IMG/info/suv-car.png" },
-        { id: "4", name: "MPV'S", kmPrice: "₹22/Km", ac: "AC", seat: "12+2", price: "₹1300", ico: "../../../../IMG/info/van-taxi.png" },
+        { id: "1", name: "HATCHBACK", kmPrice: "₹9/Km", ac: "AC", seat: "4+1", price: "₹599", ico: "../../../../public/IMG/info/hatchback.png" },
+        { id: "2", name: "SEDAN", kmPrice: "₹11/Km", ac: "AC", seat: "5+1", price: "₹659", ico: "../../../../public/IMG/info/sedan.png" },
+        { id: "3", name: "SUV", kmPrice: "₹14/Km", ac: "AC", seat: "6+1", price: "₹710", ico: "../../../../public/IMG/info/suv-car.png" },
+        { id: "4", name: "MPV'S", kmPrice: "₹22/Km", ac: "AC", seat: "12+2", price: "₹1300", ico: "../../../../public/IMG/info/van-taxi.png" },
     ]
     return (
         <>
-            <div className="w-[75%] mx-auto h-[70vh] flex flex-col items-center justify-center">
+            <div className="w-[75%] mx-auto py-5 flex flex-col items-center justify-center">
                 <div className="">
                     <p className="text-[30px] font-Outfit font-bold">Our Popular Fleets</p>
                 </div>

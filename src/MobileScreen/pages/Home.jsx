@@ -22,8 +22,8 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
     }
 
     useEffect(() => {
-        if (localSearchBarActive === true)
-            handleLocaationPermissionModal();
+        if(localSearchBarActive === true ) 
+                handleLocaationPermissionModal(); 
     }, [searchBarActive, localSearchBarActive])
 
 
@@ -119,9 +119,9 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
     ];
 
     const datalist = [
-        { w: "w-[80px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../IMG/sidebar/airport-black.png", icoActive: "../../../IMG/sidebar/airport-white.png", name: "Airport/Local" },
-        { w: "w-[80px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../IMG/sidebar/outstation-black.png", icoActive: "../../../IMG/sidebar/outstation-white.png", name: "Out station" },
-        { w: "w-[80px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../IMG/sidebar/hourly-black.png", icoActive: "../../../IMG/sidebar/hourly-white.png", name: "Hourly Rental" },
+        { w: "w-[80px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../public/IMG/sidebar/airport-black.png", icoActive: "../../../public/IMG/sidebar/airport-white.png", name: "Airport/Local" },
+        { w: "w-[80px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../public/IMG/sidebar/outstation-black.png", icoActive: "../../../public/IMG/sidebar/outstation-white.png", name: "Out station" },
+        { w: "w-[80px]", click: () => setmenuOverLap(true), redirection: "/", ico: "../../../public/IMG/sidebar/hourly-black.png", icoActive: "../../../public/IMG/sidebar/hourly-white.png", name: "Hourly Rental" },
     ]
 
     return (
@@ -285,7 +285,7 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
                                                 <div className="w-100 flex items-center justify-between">
                                                     <div className="bs-org w-fit h-fit rounded-br-xl rounded-tl-xl">
                                                         <div className="mt-[-30px] ms-[-10px] pe-3 py-1">
-                                                            <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../IMG/car-slider.png" alt="" />
+                                                            <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../public/IMG/car-slider.png" alt="" />
                                                         </div>
                                                     </div>
                                                     <div className="px-3">
@@ -309,7 +309,7 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
                                                 <div className="w-100 flex items-center justify-between">
                                                     <div className="bs-org w-fit h-fit rounded-br-xl rounded-tl-xl">
                                                         <div className="mt-[-30px] ms-[-10px] pe-3 py-1">
-                                                            <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../IMG/car-slider.png" alt="" />
+                                                            <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../public/IMG/car-slider.png" alt="" />
                                                         </div>
                                                     </div>
                                                     <div className="px-3">
@@ -348,11 +348,11 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
                                 {/* <div className="min-w-[3px] max-w-[3px] border-l-4 border-blue border-dotted col min-h-[35%] max-h-[35%] absolute top-50 start-[24px] translate-middle"></div> */}
                                 <div className="flex flex-col w-100 min-h-[120px] max-h-[120px] justify-between">
                                     <div className="w-100  px-3 rounded-lg max-h-fit flex items-center gap-2 border-2 border-blue" onClick={() => setLocalSearchBarActive(true)}>
-                                        <input type="radio" className='ms-[-2px]' />
+                                        <input type="radio" className='me-2.5' />
                                         <input className='py-2.5 h-fit w-[clamp(100%,100%,400px)]' placeholder='Select your City' type="text" />
                                     </div>
                                     <div className="w-100  px-3 rounded-lg max-h-fit flex items-center gap-2 border-2 border-blue" onClick={() => setLocalSearchBarActive(true)}>
-                                        <img className='min-w-[20px] max-w-[20px] object-cover' src="../../IMG/pakages.png" alt="" />
+                                        <img className='min-w-[20px] max-w-[20px] object-cover' src="../../../public/IMG/package-selection.png" alt="" />
                                         <input className='py-2.5 h-fit w-[clamp(100%,100%,400px)]' placeholder='Select your Package' type="text" />
                                     </div>
                                 </div>
@@ -365,7 +365,7 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
                                             <div className="w-100 flex items-center justify-between">
                                                 <div className="bs-org w-fit h-fit rounded-br-xl rounded-tl-xl">
                                                     <div className="mt-[-30px] ms-[-10px] pe-3 py-1">
-                                                        <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../IMG/car-slider.png" alt="" />
+                                                        <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../public/IMG/car-slider.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div className="px-3">
@@ -389,7 +389,7 @@ export default function Home({ activeMainTab, setActiveMainTab, menuOverLap, set
                                             <div className="w-100 flex items-center justify-between">
                                                 <div className="bs-org w-fit h-fit rounded-br-xl rounded-tl-xl">
                                                     <div className="mt-[-30px] ms-[-10px] pe-3 py-1">
-                                                        <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../IMG/car-slider.png" alt="" />
+                                                        <img className='w-[clamp(180px,180px,180px)] object-cover' src="../../public/IMG/car-slider.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div className="px-3">
